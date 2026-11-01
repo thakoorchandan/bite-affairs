@@ -1,0 +1,13 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "AUTH_URL=http://localhost:3001 NEXTAUTH_URL=http://localhost:3001 NEXT_PUBLIC_APP_URL=http://localhost:3001 next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {}
+}

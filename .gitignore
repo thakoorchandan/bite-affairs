@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/backups
+/test-results
+/playwright-report
+/playwright/.cache
+!.env.example
+/.next-*
+
+# monorepo build output, local DB, backups
+**/.next/
+**/.next-*/
+.pglite/
+backups/
+*.tsbuildinfo
+.env.local
+test-results/
+playwright-report/
